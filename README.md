@@ -21,7 +21,13 @@ This project shows an example of a reslogit model using a Theano backend DL libr
 
 ```config.yaml``` configuration file for hyperparameters
 
-## Discrete variable numbering values
+```curves.py``` script to generate plots for validation results
+
+## Dataset
+
+This project uses a sample of the Mtl Trajet dataset
+
+### Discrete variable numbering values
 
 **Mode**
 
@@ -46,3 +52,41 @@ This project shows an example of a reslogit model using a Theano backend DL libr
 8. Travail
 9. Réunion pour le travail
 10. N/A
+
+## Getting started
+
+```main.py``` provides the script to run to reproduce the results of the ResLogit model estimation. 
+```config.yaml``` is the configuration file fir different hyperparameter settings.
+
+### Prerequisites
+
+Python 3.5+ (with pip3), Numpy, Scipy, Pandas, Theano
+
+Matplotlib is used for visualization
+
+
+### Installation
+
+A ```requirements.txt``` file is provided to install the required library packages through pip
+
+```
+- clone or download the git project repository, and in the project folder run the following to install the reuqirements
+
+Ubuntu (Unix)
+
+The following system packages are required to be installed
+
+```
+apt-get install python3 python3-dev pip3
+python3 --version
+>>> Python 3.X.X
+```
+
+Install requirements with pip with --user option
+
+```
+cd project-root-folder/
+pip3 install --user -r requirements.txt
+```
+
+The above command also installs the latest Theano from github.com/Theano/Theano
