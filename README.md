@@ -69,7 +69,6 @@ Matplotlib is used for visualization
 
 A ```requirements.txt``` file is provided to install the required library packages through pip
 
-```
 - clone or download the git project repository, and in the project folder run the following to install the reuqirements
 
 Ubuntu (Unix)
