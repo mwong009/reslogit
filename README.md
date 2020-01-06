@@ -23,7 +23,12 @@ This project shows an example of a reslogit model using a Theano backend DL libr
 
 ```curves.py``` script to generate plots for validation results
 
-## Dataset
+## Getting started
+
+Run ```python3 main.py``` to reproduce the results of the ResLogit model estimation. 
+To edit the hyperparameter settings, use ```config.yaml``` configuration file.
+
+### Dataset
 
 This project uses a sample of the Mtl Trajet dataset
 
@@ -52,11 +57,6 @@ This project uses a sample of the Mtl Trajet dataset
 8. Travail
 9. Réunion pour le travail
 10. N/A
-
-## Getting started
-
-```main.py``` provides the script to run to reproduce the results of the ResLogit model estimation. 
-```config.yaml``` is the configuration file fir different hyperparameter settings.
 
 ### Prerequisites
 
@@ -89,3 +89,15 @@ pip3 install --user -r requirements.txt
 ```
 
 The above command also installs the latest Theano from github.com/Theano/Theano
+
+## Versioning
+
+0.1 inital version 
+
+## Authors
+
+Melvin Wong ([Github](https://github.com/mwong009))
+
+## Licence
+
+This project is licensed under the MIT - see [LICENSE](https://github.com/LiTrans/reslogit-example/blob/master/LICENSE) for details
