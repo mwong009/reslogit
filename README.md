@@ -89,3 +89,15 @@ pip3 install --user -r requirements.txt
 ```
 
 The above command also installs the latest Theano from github.com/Theano/Theano
+
+## Versioning
+
+0.1 inital version 
+
+## Authors
+
+Melvin Wong ([Github](https://github.com/mwong009))
+
+## Licence
+
+This project is licensed under the MIT - see [LICENSE](https://github.com/LiTrans/reslogit-example/blob/master/LICENSE.md) for details
