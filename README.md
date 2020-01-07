@@ -2,6 +2,8 @@
 
 This project shows an example of a reslogit model using a Theano backend DL library.
 
+![reslogit](/docs/icmc_path.png)
+
 ## File description
 
 ```main.py``` script to run program
