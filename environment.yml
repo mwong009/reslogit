@@ -1,0 +1,20 @@
+name: theano-1.0.5
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - blas
+  - intel-openmp
+  - ipykernel
+  - m2w64-gcc
+  - m2w64-toolchain
+  - mkl
+  - nose
+  - nose-parameterized
+  - numpy
+  - pandas
+  - pip
+  - pyyaml
+  - scipy
+  - theano

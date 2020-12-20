@@ -1,6 +1,0 @@
-matplotlib
-pandas
-numpy
-scipy
-pickle
-git+git://github.com/Theano/Theano.git
