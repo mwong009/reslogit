@@ -171,6 +171,10 @@ class Logit(object):
 
         # y.shape[0] is (symbolically) the number of rows in y
         return -T.sum(T.log(self.output)[T.arange(y.shape[0]), y])
+    
+    def prob_choice(self, y):
+        
+        return self.output
 
     def errors(self, y):
         """Return a float representing the number of errors in the minibatch

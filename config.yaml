@@ -1,4 +1,4 @@
-model_type: ResNet
+model_type: MNL
 choices:
   - auto
   - bike
